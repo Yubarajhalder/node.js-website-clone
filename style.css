@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 10vh;
+    width: 100%;
+    background-image: url(navbackg.png);
+    border-bottom: 1px solid white;
+}
+.left{
+    width: 600px;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 100px;
+    height: 50px;
+
+    margin-left: 20px;
+}
+.left ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+}
+.left ul li {
+    margin-left: 20px;
+    font-size: 18px;
+}
+.right{
+    float: inline-end;
+    margin-top: -73px;
+    width: 600px;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.right input{
+
+    background-image: url(navbackg.png);
+    width: 260px;
+    height: 36px;
+    border-radius: 7px;
+    
+}
+.right ::placeholder {
+   
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right img{
+   
+    margin-top: -10px;
+    width: 150px;
+    height: 50px;
+}
+.mid{
+    background-color: black;
+    height: 95vh;
+    width: 100%;
+    background-image: url(3909226.png);
+    background-size: contain;
+    opacity: 0.9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.ml h1{
+    font-size: 57px;
+    color: aliceblue;
+    font-weight: lighter;
+    
+}
+.ml p{
+    font-size: 20px;
+    padding: 2px ;
+   
+}
+.ml button{
+    width: 400px;
+    height: 47px;
+    border-radius: 10px;
+    background-color: rgba(74, 116, 11, 0.374);
+    filter: drop-shadow(1px 1px 24px rgb(39, 103, 35));
+    border: 1px solid rgb(1, 42, 1);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: lighter;
+}
